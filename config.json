@@ -1,0 +1,16 @@
+{
+  "train": "data/train.csv",
+  "test": "data/test.csv",
+  "sample_submission": "data/sample_test_out.csv",
+  "id_col": "sample_id",
+  "target_col": "price",
+  "text_cols": ["catalog_content"],
+  "image_col": "image_link",
+  "task": "regression",
+  "metric": "smape",
+  "target_transform": "log1p",
+  "n_folds": 5,
+  "seed": 42,
+  "pred_col": "price",
+  "positive_only": true
+}

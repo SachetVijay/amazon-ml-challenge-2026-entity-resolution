@@ -1,0 +1,40 @@
+# secrets / credentials — never commit
+.env
+.env.*
+*.pem
+kaggle.json
+.aws/
+.ssh/
+
+# datasets — organizers' data, not ours to redistribute
+student_resource/
+data/
+
+# large generated artifacts (model weights, caches, run outputs)
+models/
+submissions/
+artifacts/
+images/
+kaggle_*/
+adapt_*/
+backup_pred_s2_*/
+output_v*/
+output_final*/
+final/
+*.parquet
+*.safetensors
+*.pt
+*.pth
+
+# local environment / tooling
+.venv/
+__pycache__/
+*.pyc
+wandb/
+.claude/settings.local.json
+.DS_Store
+
+# logs from ad-hoc sprint runs
+*.log
+*.flag
+*.done

@@ -1,0 +1,3 @@
+{"id": "sachetv/amlc-ce-e5large", "title": "amlc-ce-e5large", "code_file": "train_ce.py", "language": "python",
+ "kernel_type": "script", "is_private": true, "enable_gpu": true, "enable_internet": true,
+ "dataset_sources": ["sachetv/amlc-ce-pairs-b67"], "competition_sources": [], "kernel_sources": []}
